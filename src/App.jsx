@@ -18,7 +18,7 @@ function App() {
       }
       const updatedTurns = [
         { square: { row: rowIndex, col: colIndex }, player: currentPlayer },
-        ...prevTurns,
+        ...prevTurns
       ];
       return updatedTurns;
     });
